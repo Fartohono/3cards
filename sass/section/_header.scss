@@ -1,0 +1,32 @@
+.header .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.logo{
+    font-weight: 1000;
+    font-size: 20px;
+    color: rgb(71, 233, 179);
+}
+.logo-white{
+    color: antiquewhite;
+}
+.header-links{
+gap: 15px;
+display: flex;
+}
+.header-link{
+font-size: 800;
+color: greenyellow;
+}
+.header-link:visited,:focus{
+color: greenyellow;
+}
+.header{
+    margin-bottom: 25px;
+}
